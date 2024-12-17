@@ -1,0 +1,25 @@
+$block: '.addPage';
+
+#{$block} {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 40px;
+
+    &__table {
+        overflow: scroll;
+    }
+
+    &__form {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__text {
+        width: 600px;
+    }
+}

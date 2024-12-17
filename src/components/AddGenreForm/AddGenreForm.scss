@@ -1,0 +1,9 @@
+$block: '.add-genre-form';
+
+#{$block} {
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+  }
+  
